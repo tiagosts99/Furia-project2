@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Qual FURIA é você?</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- Seção 1: Dados Pessoais -->
+        <section id="personal-data">
+            <h1>Qual FURIA é você</h1>
+            <form id="form-data">
+                <input type="text" id="name" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu Email" required>
+                <input type="number" id="age" placeholder="Sua Idade" required>
+                <input type="text" id="city" placeholder="Sua Cidade" required>
+                <input type="text" id="state" placeholder="Seu Estado" required>
+                <input type="tel" id="numero" placeholder="Seu Telefone" required>
+                <button type="submit">Começar Quiz</button>
+            </form>
+        </section>
+
+        <!-- Seção 2: Questionário -->
+        <section id="quiz" style="display:none;">
+            <h2 id="question-text"></h2>
+            <div id="options">
+                <button id="option-0"></button>
+                <button id="option-1"></button>
+                <button id="option-2"></button>
+                <button id="option-3"></button>
+            </div>
+        </section>
+
+        <!-- Seção 3: Resultado -->
+        <section id="result" style="display:none;">
+            <h1>Você é FURIA <span id="team-name"></span>!</h1>
+            <img id="team-image" src="./assets/Furia_Esports_logo.png" alt="Imagem do time">
+            <br>
+            <br>
+            <br>
+            <button id="share-btn">Compartilhar com os amigos</button>
+        </section>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

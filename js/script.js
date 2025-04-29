@@ -28,7 +28,7 @@ const questions = [
       ]
     },
     {   // Pergunta 4
-        text: "Qual serio sua armar ideia?",
+        text: "Qual seria sua armar ideia?",
         options: [
             { text: "Rifle AK-47 na mão", team: "CS:GO" },
             { text: "Pistola futurista cheia de estilo", team: "Valorant" },
@@ -37,7 +37,7 @@ const questions = [
         ]
     },
     {   // Pergunta 5
-        text: "Se você fosse escolher um lema, seria:",
+        text: "Se você fosse escolher um lema, Qual desses seria:",
         options: [
             { text: "Pense rápido, aja mas rápido", team: "Valorant" },
             { text: "Treinar hoje para conquistar amanhã.", team: "Academy" },
@@ -46,7 +46,7 @@ const questions = [
         ]
     },
     {   // Pergunta 6
-        text: "Que tipo de revial você mais respeita?",
+        text: "Que tipo de rival você mais respeita?",
         options: [
             { text: "O que defende o time até o último segundo.", team: "Lol" },
             { text: "O que nunca desiste, mesmo perdendo.", team: "Academy" },
@@ -55,7 +55,7 @@ const questions = [
         ]
     },
     {   // Pergunta 7
-        text: "Qual dessas frases define melhor seu espirito competitivo?",
+        text: "Qual dessas frases define melhor seu espírito competitivo?",
         options: [
             { text: "Confio na minha evolução", team: "Academy" },
             { text: "Confio na minha criatividade", team: "Valorant" },

@@ -1,7 +1,8 @@
 body {
-    background-color: #000000;
-    background-image: url('../assets/A_dark_themed_website_background_suitable_for_an_online_quiz_about_video_games_The_design_should_feature_deep_shades_of_black_and_gray_with_subtle_textures_and_abstract_patterns_creating_a_sleek_and_modern_a.png'); /* Replace with your image URL */
-    background-position: center;
+    background-color: #000000; /* Replace with your image URL */
+    background-position: center ;
+    background-size: cover;    
+    background-repeat: no-repeat;
     color:#708090;
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -15,7 +16,15 @@ body {
     font-size: 2.5rem;
     color: #708090;
   }
-
+  img {
+    position: absolute;
+    top: 05%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin-bottom: 20px;
+  }	
   form, #options {
     display: flex;
     flex-direction: column;

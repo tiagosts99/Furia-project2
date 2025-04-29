@@ -146,7 +146,7 @@ const questions = [
   // Compartilhar no WhatsApp
   document.getElementById('share-btn').addEventListener('click', () => {
     const bestTeam = document.getElementById('team-name').innerText;
-    const text = `Eu fiz o quiz da FÚRIA e sou ${bestTeam}! Faça também: `;
+    const text = `Eu fiz o quiz da FÚRIA e sou FURIA  ${bestTeam}! Faça também: `;
     const url = encodeURIComponent(window.location.href);
     const link = `https://wa.me/?text=${encodeURIComponent(text)}${url}`;
     window.open(link, '_blank');

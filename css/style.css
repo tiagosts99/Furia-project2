@@ -16,7 +16,7 @@ body {
     font-size: 2.5rem;
     color: #708090;
   }
-  img {
+  .team-image {
     position: absolute;
     top: 05%;
     left: 35%;
